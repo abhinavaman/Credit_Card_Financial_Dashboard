@@ -25,20 +25,6 @@ This project provides a comprehensive dashboard for credit-card transaction and 
 
 ---
 
-## 📁 Repository Structure  
-Credit_Card_Financial_Dashboard/
-│
-├── Credit Card Financial Dashboard-Customer.pdf ← Customer report mockup
-├── Credit Card Financial Dashboard-Transaction.pdf ← Transaction report mockup
-├── SQL Query - Financial Dashboard Data.sql ← SQL script for data prep/ETL
-├── cc_add.csv ← Supplemental dataset
-├── credit_card.csv ← Credit-card transactions dataset
-├── cust_add.csv ← Customer address dataset
-└── customer.csv ← Customer master dataset
-
-
----
-
 ## 🚀 Getting Started  
 1. Clone the repository:  
    ```bash
