@@ -1,4 +1,3 @@
-# Credit_Card_Financial_Dashboard
 # Credit Card Financial Dashboard
 
 ## 📊 Project Overview  
@@ -52,7 +51,7 @@ Refresh the visuals in Power BI to view the dashboard.
 
 Explore the Transaction Report and Customer Report tabs to analyze the insights.
 
-🧮 Data Sources & Preparation
+## 🧮 Data Sources & Preparation
 
 Datasets included: credit_card.csv, customer.csv, cust_add.csv, cc_add.csv.
 
@@ -60,16 +59,15 @@ SQL Script: SQL Query - Financial Dashboard Data.sql – used to join/transform 
 
 Ensure that date fields are properly typed, categorical variables are cleaned, and any missing values or outliers are handled before visualization.
 
-📸 Dashboard Preview
+## 📸 Dashboard Preview
 
-(Add images/screenshots here by uploading them into the repository and linking below)
-Transaction Report View:
-
-
-Customer Report View:
+Transaction Report View:https://github.com/abhinavaman/Credit_Card_Financial_Dashboard/blob/main/Credit%20Card%20Financial%20Dashboard-Transaction.pdf
 
 
-✅ Usage & Benefits
+Customer Report View:https://github.com/abhinavaman/Credit_Card_Financial_Dashboard/blob/main/Credit%20Card%20Financial%20Dashboard-Customer.pdf
+
+
+## ✅ Usage & Benefits
 
 Monitor credit-card business performance in near real-time.
 
