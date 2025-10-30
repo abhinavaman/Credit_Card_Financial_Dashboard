@@ -1,36 +1,80 @@
 # Credit_Card_Financial_Dashboard
-Credit Card Transaction and Customer Dashboard using Power BICredit Card Financial Dashboard
-This project is a Credit Card Financial Dashboard built using Power BI and SQL. It provides a comprehensive overview of credit card transactions and customer data, enabling stakeholders to monitor key performance indicators (KPIs) and gain valuable insights into customer behavior and spending patterns.
+# Credit Card Financial Dashboard
 
-Dashboard Preview
-(Here you can add screenshots of your dashboard. Upload the images to your GitHub repository and link them here.)
+## 📊 Project Overview  
+This project provides a comprehensive dashboard for credit-card transaction and customer data, built using **Power BI** and SQL. The goal is to allow stakeholders to monitor key metrics (KPIs), uncover spending patterns, and gain actionable insights into customer behaviour.
 
+---
+
+## 🔍 Features  
+- **Transaction Report** – Analysis of credit-card transactions by volume, value, and trend over time.  
+- **Customer Report** – Deep dive into customer demographics, spending habits, credit profiles, etc.  
+- **Key Performance Indicators (KPIs)** – Tracks essential metrics such as:  
+  - Total Revenue  
+  - Total Transactions  
+  - Total Customers  
+  - Approval vs Rejection Rates  
+- **Interactive Visualizations** – User-friendly charts and drill-downs for exploration of data.  
+- **Data-Driven Insights** – Provides business intelligence support for strategy and decision-making.
+
+---
+
+## 🛠 Technologies Used  
+- **Power BI** – for creating interactive dashboards and visualizations.  
+- **SQL** – for data extraction, transformation, loading (ETL) and database queries.  
+- **Excel** (or similar) – for initial data cleaning and preparation (if used).
+
+---
+
+## 📁 Repository Structure  
+Credit_Card_Financial_Dashboard/
+│
+├── Credit Card Financial Dashboard-Customer.pdf ← Customer report mockup
+├── Credit Card Financial Dashboard-Transaction.pdf ← Transaction report mockup
+├── SQL Query - Financial Dashboard Data.sql ← SQL script for data prep/ETL
+├── cc_add.csv ← Supplemental dataset
+├── credit_card.csv ← Credit-card transactions dataset
+├── cust_add.csv ← Customer address dataset
+└── customer.csv ← Customer master dataset
+
+
+---
+
+## 🚀 Getting Started  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/abhinavaman/Credit_Card_Financial_Dashboard.git
+Open the SQL script (SQL Query - Financial Dashboard Data.sql) in your SQL editor and run against your database/data-warehouse.
+
+Open the Power BI file (assuming you have one) or import the cleaned data and connect the datasets in Power BI.
+
+Refresh the visuals in Power BI to view the dashboard.
+
+Explore the Transaction Report and Customer Report tabs to analyze the insights.
+
+🧮 Data Sources & Preparation
+
+Datasets included: credit_card.csv, customer.csv, cust_add.csv, cc_add.csv.
+
+SQL Script: SQL Query - Financial Dashboard Data.sql – used to join/transform the raw datasets into the final model for dashboarding.
+
+Ensure that date fields are properly typed, categorical variables are cleaned, and any missing values or outliers are handled before visualization.
+
+📸 Dashboard Preview
+
+(Add images/screenshots here by uploading them into the repository and linking below)
 Transaction Report View:
+
 
 Customer Report View:
 
-Features
-Transaction Report: Detailed analysis of credit card transactions, including transaction volume, value, and trends over time.
 
-Customer Report: In-depth analysis of customer demographics, spending habits, and credit profiles.
+✅ Usage & Benefits
 
-Key Performance Indicators (KPIs): Tracks essential metrics such as:
+Monitor credit-card business performance in near real-time.
 
-Total Revenue
+Identify spending trends by segment, channel, geography or timeframe.
 
-Total Transactions
+Track customer acquisition, retention and behaviour metrics.
 
-Total Customers
-
-Approval and Rejection Rates
-
-Interactive Visualizations: User-friendly charts and graphs to explore the data and drill down into specific details.
-
-Data-driven Insights: Provides actionable insights to support business decisions and strategies.
-
-Technologies Used
-Power BI: For creating interactive dashboards and visualizations.
-
-SQL: For data extraction, transformation, and loading (ETL).
-
-Excel: For data cleaning and preparation.
+Support strategic decisions (e.g., targeted offers, risk management) using data-backed insights.
